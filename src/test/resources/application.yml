@@ -1,0 +1,20 @@
+spring:
+  #근데 스프링부트에서는 아무설정도 안하면 기본 메모리상으로 돌린다.
+#  datasource:
+#    url: jdbc:h2:mem:test #db 뛰울필요 없이 메모리상으로 돌린다.
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+#    properties:
+#      hibernate:
+#        show_sql: true
+#        format_sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
